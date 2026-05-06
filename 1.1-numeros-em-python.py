@@ -14,7 +14,7 @@ Vamos aprender:
 # ===========================
 # int -> números inteiros 
 # float -> números com casas decimais 
-# complex -> númerosd complexos (usado em matemática/engenharia)
+# complex -> números complexos (usado em matemática/engenharia)
 
 print("====TIPOS ====")
 
@@ -30,3 +30,25 @@ print ("Valor:", numero_inteiro)
 print("Tipo:", type(numero_inteiro))
 
 print("--------------------------------")
+
+# EXEMPLO 02 - NUMERO DECIMAL
+
+# Float é um número com ponto decimal
+numero_decimal = 3.14
+
+print ("Valor:", numero_decimal)
+print ("Tipo:", type(numero_decimal))
+
+print("-----------------------------")
+
+# EXEMPLO 03 - NUMEROS COMPLEXOS
+# Um número complexo possui duas partes:
+# Parte real (Numero normal)
+# Parte Imaginária (multiplicada por j)
+
+# Estrutura Geral:
+# numero = a = bj
+
+# a = parte real
+# b = parte imaginária
+# j = unidade imaginária
